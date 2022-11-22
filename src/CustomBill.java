@@ -41,6 +41,18 @@ class main {
                         System.out.println("price of tea"+(obj * 10));
 
                     break;
+                    case 2:
+                        System.out.println("Enter next item");
+
+                        Scanner obj1 = new Scanner(System.in);
+                        int zy= obj1.nextInt();
+                        System.out.println(zy);
+
+                        System.out.println("Enter the num of coffee");
+                        int tu= obj1.nextInt();
+                        System.out.println(tu);
+                        System.out.println("price of tea"+(obj1 * 15));
+                        break;
 
 
 
